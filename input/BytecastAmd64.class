@@ -1,0 +1,195 @@
+Compiled from "BytecastAmd64.java"
+public class org.trifort.depexample.BytecastAmd64 extends java.lang.Object
+  SourceFile: "BytecastAmd64.java"
+  minor version: 0
+  major version: 50
+  Constant pool:
+const #1 = Method	#15.#50;	//  java/lang/Object."<init>":()V
+const #2 = Field	#14.#51;	//  org/trifort/depexample/BytecastAmd64.m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+const #3 = Field	#14.#52;	//  org/trifort/depexample/BytecastAmd64.m_jimple:Lorg/trifort/depexample/IBytecastJimple;
+const #4 = class	#53;	//  java/io/File
+const #5 = String	#54;	//  .
+const #6 = Method	#4.#55;	//  java/io/File."<init>":(Ljava/lang/String;)V
+const #7 = InterfaceMethod	#56.#57;	//  org/trifort/depexample/IBytecastFsys.setRoot:(Ljava/io/File;)V
+const #8 = InterfaceMethod	#56.#58;	//  org/trifort/depexample/IBytecastFsys.getObjects:()Ljava/util/List;
+const #9 = InterfaceMethod	#59.#60;	//  java/util/List.iterator:()Ljava/util/Iterator;
+const #10 = InterfaceMethod	#61.#62;	//  java/util/Iterator.hasNext:()Z
+const #11 = InterfaceMethod	#61.#63;	//  java/util/Iterator.next:()Ljava/lang/Object;
+const #12 = InterfaceMethod	#56.#64;	//  org/trifort/depexample/IBytecastFsys.getObject:(Ljava/io/File;)Ljava/lang/String;
+const #13 = InterfaceMethod	#65.#66;	//  org/trifort/depexample/IBytecastJimple.writeJimpleFile:(Ljava/io/File;Ljava/lang/String;)V
+const #14 = class	#67;	//  org/trifort/depexample/BytecastAmd64
+const #15 = class	#68;	//  java/lang/Object
+const #16 = Asciz	m_fsys;
+const #17 = Asciz	Lorg/trifort/depexample/IBytecastFsys;;
+const #18 = Asciz	m_jimple;
+const #19 = Asciz	Lorg/trifort/depexample/IBytecastJimple;;
+const #20 = Asciz	<init>;
+const #21 = Asciz	(Lorg/trifort/depexample/IBytecastFsys;Lorg/trifort/depexample/IBytecastJimple;)V;
+const #22 = Asciz	Code;
+const #23 = Asciz	LineNumberTable;
+const #24 = Asciz	LocalVariableTable;
+const #25 = Asciz	this;
+const #26 = Asciz	Lorg/trifort/depexample/BytecastAmd64;;
+const #27 = Asciz	fsys;
+const #28 = Asciz	jimple;
+const #29 = Asciz	RuntimeVisibleAnnotations;
+const #30 = Asciz	Lcom/google/inject/Inject;;
+const #31 = Asciz	run;
+const #32 = Asciz	()V;
+const #33 = Asciz	contents;
+const #34 = Asciz	Ljava/lang/String;;
+const #35 = Asciz	file;
+const #36 = Asciz	Ljava/io/File;;
+const #37 = Asciz	i$;
+const #38 = Asciz	Ljava/util/Iterator;;
+const #39 = Asciz	root;
+const #40 = Asciz	files;
+const #41 = Asciz	Ljava/util/List;;
+const #42 = Asciz	LocalVariableTypeTable;
+const #43 = Asciz	Ljava/util/List<Ljava/io/File;>;;
+const #44 = Asciz	StackMapTable;
+const #45 = class	#53;	//  java/io/File
+const #46 = class	#69;	//  java/util/List
+const #47 = class	#70;	//  java/util/Iterator
+const #48 = Asciz	SourceFile;
+const #49 = Asciz	BytecastAmd64.java;
+const #50 = NameAndType	#20:#32;//  "<init>":()V
+const #51 = NameAndType	#16:#17;//  m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+const #52 = NameAndType	#18:#19;//  m_jimple:Lorg/trifort/depexample/IBytecastJimple;
+const #53 = Asciz	java/io/File;
+const #54 = Asciz	.;
+const #55 = NameAndType	#20:#71;//  "<init>":(Ljava/lang/String;)V
+const #56 = class	#72;	//  org/trifort/depexample/IBytecastFsys
+const #57 = NameAndType	#73:#74;//  setRoot:(Ljava/io/File;)V
+const #58 = NameAndType	#75:#76;//  getObjects:()Ljava/util/List;
+const #59 = class	#69;	//  java/util/List
+const #60 = NameAndType	#77:#78;//  iterator:()Ljava/util/Iterator;
+const #61 = class	#70;	//  java/util/Iterator
+const #62 = NameAndType	#79:#80;//  hasNext:()Z
+const #63 = NameAndType	#81:#82;//  next:()Ljava/lang/Object;
+const #64 = NameAndType	#83:#84;//  getObject:(Ljava/io/File;)Ljava/lang/String;
+const #65 = class	#85;	//  org/trifort/depexample/IBytecastJimple
+const #66 = NameAndType	#86:#87;//  writeJimpleFile:(Ljava/io/File;Ljava/lang/String;)V
+const #67 = Asciz	org/trifort/depexample/BytecastAmd64;
+const #68 = Asciz	java/lang/Object;
+const #69 = Asciz	java/util/List;
+const #70 = Asciz	java/util/Iterator;
+const #71 = Asciz	(Ljava/lang/String;)V;
+const #72 = Asciz	org/trifort/depexample/IBytecastFsys;
+const #73 = Asciz	setRoot;
+const #74 = Asciz	(Ljava/io/File;)V;
+const #75 = Asciz	getObjects;
+const #76 = Asciz	()Ljava/util/List;;
+const #77 = Asciz	iterator;
+const #78 = Asciz	()Ljava/util/Iterator;;
+const #79 = Asciz	hasNext;
+const #80 = Asciz	()Z;
+const #81 = Asciz	next;
+const #82 = Asciz	()Ljava/lang/Object;;
+const #83 = Asciz	getObject;
+const #84 = Asciz	(Ljava/io/File;)Ljava/lang/String;;
+const #85 = Asciz	org/trifort/depexample/IBytecastJimple;
+const #86 = Asciz	writeJimpleFile;
+const #87 = Asciz	(Ljava/io/File;Ljava/lang/String;)V;
+
+{
+org.trifort.depexample.IBytecastFsys m_fsys;
+
+org.trifort.depexample.IBytecastJimple m_jimple;
+
+public org.trifort.depexample.BytecastAmd64(org.trifort.depexample.IBytecastFsys, org.trifort.depexample.IBytecastJimple);
+  Code:
+   Stack=2, Locals=3, Args_size=3
+   0:	aload_0
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V
+   4:	aload_0
+   5:	aload_1
+   6:	putfield	#2; //Field m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+   9:	aload_0
+   10:	aload_2
+   11:	putfield	#3; //Field m_jimple:Lorg/trifort/depexample/IBytecastJimple;
+   14:	return
+  LineNumberTable: 
+   line 20: 0
+   line 21: 4
+   line 22: 9
+   line 23: 14
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   0      15      0    this       Lorg/trifort/depexample/BytecastAmd64;
+   0      15      1    fsys       Lorg/trifort/depexample/IBytecastFsys;
+   0      15      2    jimple       Lorg/trifort/depexample/IBytecastJimple;
+
+  RuntimeVisibleAnnotations: length = 0x6
+   00 01 00 1E 00 00 
+
+public void run();
+  Code:
+   Stack=3, Locals=6, Args_size=1
+   0:	new	#4; //class java/io/File
+   3:	dup
+   4:	ldc	#5; //String .
+   6:	invokespecial	#6; //Method java/io/File."<init>":(Ljava/lang/String;)V
+   9:	astore_1
+   10:	aload_0
+   11:	getfield	#2; //Field m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+   14:	aload_1
+   15:	invokeinterface	#7,  2; //InterfaceMethod org/trifort/depexample/IBytecastFsys.setRoot:(Ljava/io/File;)V
+   20:	aload_0
+   21:	getfield	#2; //Field m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+   24:	invokeinterface	#8,  1; //InterfaceMethod org/trifort/depexample/IBytecastFsys.getObjects:()Ljava/util/List;
+   29:	astore_2
+   30:	aload_2
+   31:	invokeinterface	#9,  1; //InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+   36:	astore_3
+   37:	aload_3
+   38:	invokeinterface	#10,  1; //InterfaceMethod java/util/Iterator.hasNext:()Z
+   43:	ifeq	86
+   46:	aload_3
+   47:	invokeinterface	#11,  1; //InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+   52:	checkcast	#4; //class java/io/File
+   55:	astore	4
+   57:	aload_0
+   58:	getfield	#2; //Field m_fsys:Lorg/trifort/depexample/IBytecastFsys;
+   61:	aload	4
+   63:	invokeinterface	#12,  2; //InterfaceMethod org/trifort/depexample/IBytecastFsys.getObject:(Ljava/io/File;)Ljava/lang/String;
+   68:	astore	5
+   70:	aload_0
+   71:	getfield	#3; //Field m_jimple:Lorg/trifort/depexample/IBytecastJimple;
+   74:	aload	4
+   76:	aload	5
+   78:	invokeinterface	#13,  3; //InterfaceMethod org/trifort/depexample/IBytecastJimple.writeJimpleFile:(Ljava/io/File;Ljava/lang/String;)V
+   83:	goto	37
+   86:	return
+  LineNumberTable: 
+   line 26: 0
+   line 27: 10
+   line 28: 20
+   line 29: 30
+   line 30: 57
+   line 31: 70
+   line 32: 83
+   line 33: 86
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   70      13      5    contents       Ljava/lang/String;
+   57      26      4    file       Ljava/io/File;
+   37      49      3    i$       Ljava/util/Iterator;
+   0      87      0    this       Lorg/trifort/depexample/BytecastAmd64;
+   10      77      1    root       Ljava/io/File;
+   30      57      2    files       Ljava/util/List;
+
+  LocalVariableTypeTable: length = 0xC
+   00 01 00 1E 00 39 00 28 00 2B 00 02 
+  StackMapTable: number_of_entries = 2
+   frame_type = 254 /* append */
+     offset_delta = 37
+     locals = [ class java/io/File, class java/util/List, class java/util/Iterator ]
+   frame_type = 250 /* chop */
+     offset_delta = 48
+
+
+}
+
